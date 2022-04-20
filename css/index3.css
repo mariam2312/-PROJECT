@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear:both;
+}
+
+li{
+    display: inline-block;
+}
+i{
+    color: rgb(237,89,36);
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    
+}
+.logo1{
+    width: 10%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 30px;
+}
+.des{
+        width: 90%;
+        float: left;
+        text-align: right;
+}
+.line-item1{
+    margin-right: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.line-item2{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.line-des1, .line-des2{
+    color: rgb(116, 115, 114);
+    display: inline-block;
+    margin-right: 20px;
+    font-size:15px;
+    
+}
+.header{
+    background-color: rgb(46, 102, 102);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    position:relative ;
+    z-index: 10;
+}
+.head li a{
+    color: rgb(238, 90, 36);
+    margin: 20px;
+    display: block;
+    margin-top: 10px;
+}
+.home{
+    height: 100vh;
+    background-image: url(../images/glass-building.png);
+    background-size:cover ;
+    position: relative;
+    background-attachment: fixed;
+}
+.home-content img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 630px;
+    width: 300px;
+}
+.home-move{
+    text-align: center;
+    list-style: none;
+}
+.home-move li a{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(224,86,35);
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-top: 650px;
+}
+.home-move li.three a{
+    background-color: white;
+}
+.home-move li a:hover{
+    background-color: rgb(224,86,35);
+}

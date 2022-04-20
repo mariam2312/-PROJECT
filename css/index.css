@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear:both;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+i{
+    color: rgb(237,89,36);
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+.logo1{
+    width: 10%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 30px;
+}
+.des{
+        width: 90%;
+        float: left;
+        text-align: right;
+}
+.line-item1{
+    margin-right: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.line-item2{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.line-des1, .line-des2{
+    color: rgb(116, 115, 114);
+    display: inline-block;
+    margin-right: 20px;
+    font-size:15px;
+    
+}
+.header{
+    background-color: rgb(46, 102, 102);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    position:relative ;
+    z-index: 10;
+}
+.head li a{
+    color: rgb(238, 90, 36);
+    margin: 20px;
+    display: block;
+    margin-top: 10px;
+}
+.home, .about, .vision, .mission, .lorem, .loremip, .service, .logos, .lorem2, .lorem3, .lorem4, .lorem5, .lorem6{
+    height: 100vh;
+    background-image: url(../images/glass-building.png);
+    background-size:cover ;
+    position: relative;
+    background-attachment: fixed;
+}
+.home-content{
+    position: absolute;
+    background-color:rgba(46, 102, 102,0.95) ;
+    width: 650px;
+    height: 350px;
+    text-align: center;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title, .titles1, .titles2, .titles{
+    color: rgb(224,86,35);
+    margin-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style:italic;
+}
+.home-content .home-des{
+    color: rgb(221,216,210);
+    margin-top: 10px;
+}
+.home-content .btn{
+    width: 150px;
+    background-color: rgb(224,86,35);
+    color: rgb(221,216,210);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    margin-top: 20px;
+}
+.home-move{
+    text-align: center;
+    list-style: none;
+}
+.home-move li a{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(224,86,35);
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-top: 650px;
+}
+.home-move li.one a{
+    background-color: white;
+}
+.home-move li a:hover{
+    background-color: rgb(224,86,35);
+}
+.about-content , .vision-content, .mission-content, .lorem-content,
+.loremip-content, .service-content, .logos-content, .lorem2-content,
+.lorem3-content, .lorem4-content, .lorem5-content, .lorem6-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(46, 102, 102,0.95);
+    text-align: center;
+}
+.about-des, .lorem2-des, .lorem4-des{
+    color: white;
+    margin-top: 50px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+.about-det, .lorem2-det, .lorem4-det{
+    position: relative;
+}
+.about-det img, .lorem2-det img, .lorem4-img1{
+    position: absolute;
+    left: 300px;
+    top:50px;
+    height: 90px;
+}
+.about-det h2, .lorem2-det h2{
+    text-transform:uppercase;
+    text-align: left;
+    margin-left: 940px;
+    position: relative;
+}
+.about-des2{
+    color: white;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    text-align: left;
+    position: absolute;
+    right: 100px;
+    top:420px;
+}
+.lorem2-des2{
+    color: white;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    text-align: left;
+    position: absolute;
+    right: 100px;
+    top:400px;
+}
+.vision-det .title, .mission-det .title, .lorem-det .title, .loremip-det1 .title{
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 100px;
+    position: relative;
+}
+.vision-det img, .mission-det img, .lorem-det img{
+    position: absolute;
+    left: 150px;
+    top:230px;
+    height: 80px;
+}
+.loremip-des, .loremip span{
+    color: white;
+    line-height: 1.5;
+}
+.loremip-det2 .span1{
+    margin-right: 180px;
+}
+.loremip-det1 h3{
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+.loremip-det1 img{
+    position: absolute;
+    left: 200px;
+    top:310px;
+    height: 80px;
+}
+.loremip-det2 .titles1{
+    position: relative;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 190px;
+}
+.loremip-det2 .img0{
+    position: absolute;
+    left:900px ;
+    top: 250px;
+    height: 90px;
+}
+.loremip-det1, .loremip-det2{
+    width: 50%;
+    float: left;
+}
+.loremip-det1 .loremip-des{
+    text-align: left;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+.loremip-det2 .loremip-des{
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 5px;
+}
+.loremip-det2 .titles2{
+    position: relative;
+    text-align: left;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.loremip-det2 .img00{
+    position: absolute;
+    left:900px ;
+    top: 500px;
+    height: 90px;
+}
+.vision-det .about-des, .mission-det .about-des, .lorem-det .about-des{
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.vision2 .imgs , .vision2 p{
+    width: 50%;
+    float: left;
+}
+.img1{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.img2{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    margin-left: -400px;
+}
+.vision2 p{
+    text-align: left;
+}
+.mission-det p, .mission-det .imgs{
+    width: 50%;
+    float: left;
+
+}
+.img3{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.img4{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: -400px;
+}
+.lorem-det p, .lorem-det .imgs{
+    width: 50%;
+    float: left;
+
+}
+.service-det img{
+    width: 40%;
+    float: left;
+}
+.service-det2{
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+}
+.service-det2 .title{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.service-det img{
+    width: 300px;
+    height: 430px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.service-des, .logos-des{
+    color: white;
+    margin-top: 30px;
+    line-height: 1.6;
+    letter-spacing: 1.7px;
+    margin-left: -150px;
+
+}
+.logos-det img, .logos-det2{
+    width: 50%;
+    float: left;
+}
+.logos-det img{
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+}
+.logos-det2 .titlel{
+    color: rgb(184,142,97);
+    margin-top: 90px;
+    text-transform:uppercase;
+    margin-right: 500px;
+    letter-spacing: 2px;
+}
+.logos-des{
+    position: relative; 
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: left;
+
+}
+.year{
+    background-color: rgb(224,86,35);
+    width: 60px;
+    height: 30px;
+    margin-top: 70px;
+    position:absolute ;
+    z-index: 10;
+}
+.year p{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+.lorem3-det .title-lorem{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style:italic;
+}
+.lorem3-det h4{
+    color: white;
+    margin-top: 50px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.lorem3-d{
+    background-color:rgb(224,86,35) ;
+}
+.lorem3-img1, .lorem3-d, .lorem3-img2{
+    width: 30%;
+    float: left;
+    margin-right: 90px;
+    border-radius: 5%;
+    width: 350px;
+    height: 450px;
+}
+.lorem3-img1{
+    margin-left: 150px;
+}
+.lorem4-img2{
+    margin-top: 100px;
+    margin-right: 1000px;
+    width: 100px;
+    height: 30px;
+}
+.lorem4-img3{
+    width: 1050px;
+    margin-top: 30px;
+}
+.lorem5-det img{
+    width: 60%;
+    float: left;
+}
+.lorem5-det2{
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+}
+.lorem5 img{
+    width: 700px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.lorem5-des{
+    line-height: 1.4;
+    color: white;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    
+}
+.lorem5 input{
+    background-color: rgb(165, 163, 163);
+    border: none;
+    border-radius: 30%;
+    height: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+.ll{
+    margin-right: 20px;
+    width: 220px;
+    text-align: center;
+}
+.lorem5-in2{
+    width: 450px;
+    text-align:center;
+}
+.lorem5 button{
+    background-color: rgb(224,86,35);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 30%;
+    height: 40px;
+    width: 450px;
+}
+.lorem6-i1{
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+.lorem6-i2{
+    width: 100%;
+    background-color: rgb(224,86,35);
+    height: 10px;
+    margin-top: -90px;
+    margin-bottom: 110px;
+    
+    
+}
+.lorem6-i3{
+    width: 100%;
+    background-color: rgb(224,86,35);
+    height: 10px;
+}
+.lorem6-img{
+    margin-top: 40px;
+}
+.lorem6-det, .lorem6-det2{
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+}
+.lorem6-det h4, .lorem6-det2 h4{
+    color:rgb(224,86,35) ;
+    margin-bottom: 20px;
+}
+.lorem6-det p, .lorem6-det2 p{
+    color:white ;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 190px;
+}
+.lorem6-li1{
+    margin-bottom: 15px;
+    color: white;
+}
+.lorem6-det2 li {
+    color: rgb(224,86,35);
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.lorem6-f{
+    background-color: rgb(224,86,35);
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+}
+
+
+
+
+
+
+
+
